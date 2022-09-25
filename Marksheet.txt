@@ -1,0 +1,25 @@
+void main() {
+
+  var name = "Madiha Khan ";
+  print(name);
+  print("===============");
+  print(" Your MarkSheet");
+  print("===============");
+  var maths = 100;
+  var eng = 100;
+  var urdu = 100;
+  var sci = 100;
+  var isl = 72;
+  print("Maths marks $maths");
+  print("Maths marks $eng");
+  print("Maths marks $sci");
+  print("Maths marks $isl");
+  print("Maths marks $urdu");
+  print("===============");
+  
+var totalMarks =  maths+eng+sci+isl+urdu;
+  print("Total Marks : $totalMarks /500 ");
+    print("===============");
+  var per = (totalMarks *100)/500;
+  print("Percentage : $per");
+}
